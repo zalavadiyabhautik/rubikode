@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1200px) {
+    .navbar-brand img {
+        width: 200px;
+    }
+
+    .secation-2 .sec-2-image {
+        width: 296px;
+        height: 296px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .social-icon {
+        display: none !important;
+    }
+
+    .secation-2 .sec-2-image {
+        width: 216px;
+        height: 216px;
+    }
+
+    .sec_3_empty {
+        height: 550px;
+    }
+
+    .secation-3 .deploy-center {
+        position: absolute;
+        top: 26%;
+        left: 0;
+        right: 0;
+        width: 274px;
+        margin: auto;
+    }
+
+    .sec-1-image img {
+        height: 360px;
+    }
+
+    .sec-1-image {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .secation-3 .deploy-center {
+        position: absolute;
+        top: 26%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .secation-2 .sec-2-image {
+        margin: 30px auto;
+    }
+
+    .secation-2 .platfrom:nth-child(2) .row {
+        flex-direction: column-reverse;
+    }
+
+    .secation-1 {
+        padding: 50px 0;
+    }
+
+    .secation-1 .sec-boxs {
+        padding: 30px 15px;
+    }
+
+    .secation-1 .sec-boxs a {
+        font-size: 20px;
+    }
+
+    .secation-2 {
+        padding: 50px 0;
+    }
+
+    .sec_title h2 {
+        font-size: 28px;
+    }
+    .section-4{
+        padding: 50px 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .rubikole .Automatic {
+        padding-right: 0 !important;
+    }
+
+    .rubikole .Supported {
+        padding: 0 !important;
+    }
+
+    .rubikole .Broadest {
+        padding-left: 0 !important;
+    }
+}
